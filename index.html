@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="mario-icon.jpg">
+
+    <title>Mario Bros</title>
+
+</head>
+<body>
+
+    <div class="game-board">
+        <img src="clouds.png" class="clouds">
+        <img class="nuvens" src="clouds.png" class="clouds">
+        <img class="nuvens2" src="clouds.png" class="clouds">
+
+        <img class="bird-second" src="bird1.gif" alt="bird">
+        <img class="bird-tree" src="bird1.gif" alt="bird">
+        <img class="bird-quatro" src="bird1.gif" alt="bird">
+        <img class="bird-cinco" src="bird1.gif" alt="bird">
+        <img class="bird-seis" src="bird1.gif" alt="bird">  
+
+        <img src="mario.gif" class="mario">
+
+        <img src="pipe.png" class="pipe">
+
+        <button class="btn-play" onClick="playgame()">Jogar Novamente</button>
+        
+    </div> 
+    
+    <div class="fundo"></div>
+
+    <script src="script.js"></script>
+
+    <script>
+
+        function playgame(){
+            window.location.reload();
+        }
+
+    </script>
+</body>
+</html>
